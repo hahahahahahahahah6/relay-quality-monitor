@@ -1,0 +1,16 @@
+{
+  "target": {
+    "base_url": "https://target.example.invalid/v1",
+    "api_key_env": "RELAY_TARGET_KEY",
+    "model": "example-model"
+  },
+  "baseline": {
+    "base_url": "https://baseline.example.invalid/v1",
+    "api_key_env": "RELAY_BASELINE_KEY",
+    "model": "example-model"
+  },
+  "probes": "builtin",
+  "timeout_s": 60,
+  "max_tokens": 64,
+  "temperature": 0
+}
